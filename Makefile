@@ -1,4 +1,4 @@
-CLI=apple-midi-network-cli
+CLI=apple-midi-cli
 
 setup:
 	uv sync

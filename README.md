@@ -1,4 +1,4 @@
-# Apple MIDI Network CLI
+# Apple MIDI CLI
 
 CLI for automating the setup of Apple MIDI Network Sessions
 

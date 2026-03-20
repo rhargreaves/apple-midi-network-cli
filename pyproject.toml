@@ -1,5 +1,5 @@
 [project]
-name = "apple-midi-network-cli"
+name = "apple-midi-cli"
 version = "0.1.0"
 description = "CLI for automating the setup of Apple MIDI Network Sessions"
 authors = [
@@ -9,7 +9,7 @@ requires-python = ">=3.13"
 dependencies = ["mido>=1.3.3", "python-rtmidi>=1.5.8", "typer>=0.24.1"]
 
 [project.scripts]
-apple-midi-network-cli = "apple_midi_network_cli:main"
+apple-midi-cli = "apple_midi_cli:main"
 
 [build-system]
 requires = ["uv_build>=0.10.12,<0.11.0"]
