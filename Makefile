@@ -15,3 +15,7 @@ run:
 lock:
 	uv lock
 .PHONY: lock
+
+swift-demo:
+	cd swift/MidiSessionDemo && swift build -c release && .build/release/MidiSessionDemo
+.PHONY: swift-demo
